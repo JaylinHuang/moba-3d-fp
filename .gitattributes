@@ -1,0 +1,24 @@
+# 虚幻资源按二进制处理，避免换行被改写
+*.uasset binary
+*.umap binary
+*.uexp binary
+*.ubulk binary
+*.ufont binary
+*.upk binary
+*.umeta binary
+
+# 引擎与工程文本按平台换行归一化
+* text=auto
+*.cs text eol=crlf
+*.h text eol=crlf
+*.cpp text eol=crlf
+*.ini text eol=crlf
+*.uproject text eol=crlf
+*.uplugin text eol=crlf
+*.md text eol=lf
+*.yaml text eol=lf
+
+# 生成物不参与 diff 统计
+*.pdb binary
+*.dll binary
+*.exe binary

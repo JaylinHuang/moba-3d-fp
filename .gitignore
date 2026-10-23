@@ -1,0 +1,48 @@
+# 虚幻生成物
+Binaries/
+Intermediate/
+Build/
+Saved/
+DerivedDataCache/
+FileOpenOrder/
+*.target.json
+*_BuiltData.uasset
+_ReimportedAssets/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.sln
+*.slnx
+Automation_*.sln
+Automation_*.slnx
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.VC.ProjectSuppression.db
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+
+# 生成的项目文件（用 UBT -ProjectFiles 生成）
+/MOBA.sln
+/MOBA.slnx
+/Automation_MOBA.sln
+/Automation_MOBA.slnx
+
+# 嵌套的 UE 模板工程，与根工程无关
+Source/MOBA3D/
+
+# 本机工具状态
+.magiclomix/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

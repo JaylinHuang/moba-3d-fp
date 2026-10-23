@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "英雄模板",
+	"Description": "战士、法师、射手的占位攻击距离、攻速和出手形式。",
+	"Category": "Gameplay",
+	"CreatedBy": "MOBA",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"Modules": [
+		{
+			"Name": "HeroTemplates",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
